@@ -12,6 +12,7 @@
 #####################################################################
 ### Path to your config folder you want to backup
 config_folder=~/printer_data/config
+#config_folder=~/home/biqu/printer_data/config
 
 # NOTE: The above should work for just about everyone, but a somewhat
 # recent update to moonraker changed paths, etc. You can run the 
@@ -20,12 +21,15 @@ config_folder=~/printer_data/config
 
 ### Path to your Klipper folder, by default that is '~/klipper'
 klipper_folder=~/klipper
+#klipper_folder=~/home/biqu/klipper
 
 ### Path to your Moonraker folder, by default that is '~/moonraker'
 moonraker_folder=~/moonraker
+#moonraker_folder=~/home/biqu/moonraker
 
 ### Path to your Mainsail folder, by default that is '~/mainsail'
 mainsail_folder=~/mainsail
+#mainsail_folder=~/home/biqu/mainsail
 
 ### Path to your Fluidd folder, by default that is '~/fluidd'
 #fluidd_folder=~/fluidd
