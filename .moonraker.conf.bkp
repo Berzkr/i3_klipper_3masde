@@ -12,7 +12,11 @@ trusted_clients =
 	192.168.0.0/16
 	FE80::/10
 	::1/128
+	100.86.249.73
+	100.92.132.54
 cors_domains = 
+	3masdei3
+	*:7125
 	*.lan
 	*.local
 	*://localhost
@@ -98,4 +102,6 @@ is_system_service = False
 managed_services = 
 	klipper
 	moonraker
+
+[timelapse]
 
